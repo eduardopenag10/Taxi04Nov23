@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "30776855342",
+    "project_id": "multiloginv01",
+    "storage_bucket": "multiloginv01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30776855342:android:5cc9449c7d66e5b6f008bf",
+        "android_client_info": {
+          "package_name": "com.example.multiloginv01"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9spOBS4A4fhHSVG5DlgDGIFT0os7B3Lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
