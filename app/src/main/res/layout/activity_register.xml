@@ -41,6 +41,7 @@
 
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txtRegistroNombre"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Nombre Completo"
@@ -72,6 +73,7 @@
         android:layout_marginLeft="5dp">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtRegistroEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Correo electronico"
@@ -103,6 +105,7 @@
         android:layout_marginLeft="5dp">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtRegistroPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Contraseña"
@@ -126,6 +129,7 @@
             >
 
             <Button
+                android:id="@+id/btnRegistrarUsuario"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="REGISTRAR"

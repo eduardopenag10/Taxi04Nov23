@@ -26,6 +26,7 @@ public class SelectOptionAuthActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         botonTngLogin = findViewById(R.id.btnTngLogin);
+        botonRegLogin = findViewById(R.id.btnRegLogin);
         botonTngLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -33,11 +34,26 @@ public class SelectOptionAuthActivity extends AppCompatActivity {
             }
         });
 
+        botonRegLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                gotoRegister();
+            }
+        });
+
 
     }
 
+
+    private void gotoRegister() {
+        Intent intent = new Intent(SelectOptionAuthActivity. this, RegisterActivity.class);
+        startActivity(intent);
+    }
     private void goToLogin() {
         Intent intent =  new Intent(SelectOptionAuthActivity.this, LoginActivity.class);
                 startActivity(intent);
     }
+
+
+
 }
